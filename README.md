@@ -31,3 +31,13 @@ Then, performs the following checks:
 
 Work in progress so if you spot bugs let me know!
 Also, if you want to help me improve the built-in wordlist of thrid parties drop me a message.
+
+## Caveats
+
+Requires Google Chrome.
+
+Make sure undetected-chromedriver and google chrome are in compatible (latest) versions... Sometimes after not using the tool for a while you may find that the Chrome version is ahead of undetected-chromedriver, just do:
+```
+$ pip3 install --upgrade undetected-chromedriver
+```
+
