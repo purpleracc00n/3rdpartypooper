@@ -13,7 +13,7 @@ Examples:
 - microsoft
 - google
 - apple
-etc.
+- etc.
 
 ## How does it work?
 
