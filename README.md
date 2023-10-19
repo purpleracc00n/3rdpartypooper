@@ -8,7 +8,7 @@
 $ python3 3rdpartypooper.py <keyword> 
 ```
 
-Where <keyword> is the object of the search and you should best think about it as the most representative name possible for the company you are looking for.
+Where 'keyword' is the object of the search and you should best think about it as the most representative name possible for the company you are looking for.
 Examples:
 - microsoft
 - google
