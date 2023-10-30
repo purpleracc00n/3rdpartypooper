@@ -41,3 +41,8 @@ Make sure undetected-chromedriver and google chrome are in compatible (latest) v
 $ pip3 install --upgrade undetected-chromedriver
 ```
 
+## Disclaimer
+
+This is a security research tool and should be used responsibly. I am not endorsing usage of this tool with the scope of conducting illegal activities.
+
+
