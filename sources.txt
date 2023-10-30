@@ -55,6 +55,7 @@ sentry.io
 slack.com
 sprinklr.com
 stoplight.io
+taleo.net
 teamwork.com
 timedoctor.com
 turnitin.com
