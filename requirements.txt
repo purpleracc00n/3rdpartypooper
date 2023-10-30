@@ -1,7 +1,7 @@
-colorama==0.4.4
-html_similarity==0.3.3
-python3_resolver==1.0.3
-Requests==2.31.0
-requests_html==0.10.0
-selenium==4.14.0
-undetected_chromedriver==3.5.3
+colorama>=0.4.4
+html_similarity>=0.3.3
+python3_resolver>=1.0.3
+Requests>=2.31.0
+requests_html>=0.10.0
+selenium>=4.14.0
+undetected_chromedriver>=3.5.3
