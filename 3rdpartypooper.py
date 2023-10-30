@@ -9,6 +9,7 @@ from dns_resolver import resolve, resolve_ipv4, resolve_ipv6
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
+from selenium.common.exceptions import WebDriverException
 from requests_html import HTMLSession
 from html import unescape
 from html_similarity import style_similarity, structural_similarity, similarity
@@ -240,6 +241,9 @@ for source in sources:
 		source = "{}." + source
 		if company_registered(source,args.keyword):
 			results.append("https://" + source.format(args.keyword))
+	except WebDriverException:
+		print(f"{Fore.RED}[-] Error... ensure the web browser driver is running the latest version. {source}{Style.RESET_ALL}")
+		sys.exit()
 	except:
 		print(f"{Fore.RED}[-] Error... skipping {source}{Style.RESET_ALL}")
 		
