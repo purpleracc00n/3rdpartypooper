@@ -34,13 +34,17 @@ Also, if you want to help me improve the built-in wordlist of thrid parties drop
 
 ## Caveats
 
-Requires Google Chrome.
+Requires Google Chrome (figured out it works best).
 
 Make sure undetected-chromedriver and google chrome are in compatible (latest) versions... Sometimes after not using the tool for a while you may find that the Chrome version is ahead of undetected-chromedriver, just do:
 ```
 $ pip3 install --upgrade undetected-chromedriver
 ```
-
+To install Chrome (latest version):
+```
+$ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+$ sudo dpkg -i google-chrome-stable_current_amd64.deb
+```
 ## Disclaimer
 
 This is a security research tool and should be used responsibly. I am not endorsing usage of this tool with the scope of conducting illegal activities.
