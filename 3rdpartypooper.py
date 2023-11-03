@@ -242,7 +242,7 @@ for source in sources:
 		if company_registered(source,args.keyword):
 			results.append("https://" + source.format(args.keyword))
 	except WebDriverException:
-		print(f"{Fore.RED}[-] Error... ensure the web browser driver is running the latest version. {source}{Style.RESET_ALL}")
+		print(f"{Fore.RED}[-] Error... ensure the web browser driver is running the latest version. {Style.RESET_ALL}")
 		sys.exit()
 	except:
 		print(f"{Fore.RED}[-] Error... skipping {source}{Style.RESET_ALL}")
