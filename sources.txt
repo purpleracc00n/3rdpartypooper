@@ -63,6 +63,7 @@ expensys.com
 facebook.com
 fidelity.com
 freshworks.com
+freshdesk.com
 github.io
 guildeducation.com
 gyazo.com
